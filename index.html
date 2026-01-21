@@ -3,49 +3,58 @@ Html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>Portfolio</title>
 
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: Arial, sans-serif;
     }
 
+    /* Name */
     .profile-name {
       position: fixed;
-      top: 15px;
+      top: 10px;
       left: 20px;
       font-size: 26px;
       font-weight: bold;
-      color: #2c3e50;
-      .navbar {
-  margin-top: 60px;
-  margin-left: 20px;
-}
+      color: black;
+    }
 
-.navbar a {
-  margin-right: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: normal;
-  color: black;
-}
+    /* Navbar */
+    .navbar {
+      margin-top: 60px;
+      margin-left: 20px;
+    }
 
-.navbar a:hover {
-  font-weight: bold;
-  text-decoration: underline;
+    .navbar a {
+      display: inline-block;
+      margin-right: 30px;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .navbar a:hover {
+      font-weight: bold;
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
+
+  <!-- Name -->
+  <div class="profile-name">Gagana KS</div>
+
+  <!-- Navigation Bar -->
   <nav class="navbar">
-  <a href="#about">About</a>
-  <a href="#projects">Project details</a>
-  <a href="#skills">Skills</a>
-  <a href="#recommendations">Recommendations</a>
-</nav>
-  <div class="profile-name">Gagana ks</div>
+    <a href="#about">About</a>
+    <a href="#projects">Project details</a>
+    <a href="#skills">Skills</a>
+    <a href="#recommendations">Recommendations</a>
+  </nav>
 
 </body>
 </html>
-
