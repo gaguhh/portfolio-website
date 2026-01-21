@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Portfolio Website</title>
 
   <style>
     body {
@@ -10,25 +11,17 @@
       padding: 0;
     }
 
-    /* Header */
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .name {
-      font-size: 22px;
-      font-weight: bold;
+    /* NAV BAR */
+    nav {
+      background-color: #222;
+      padding: 15px;
     }
 
     nav a {
-      margin-left: 20px;
+      color: white;
+      margin: 15px;
       text-decoration: none;
-      color: black;
-      font-size: 16px;
+      font-size: 18px;
     }
 
     nav a:hover {
@@ -36,95 +29,43 @@
       text-decoration: underline;
     }
 
-    /* About Me */
-    #about {
-      padding: 30px;
+    section {
+      padding: 40px;
     }
 
-    #about img {
-      display: block;
-      margin: 10px 0;
+    /* ABOUT ME */
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
 
-    /* Skills */
-    #skills {
-      padding: 30px;
+    .about img {
+      width: 150px;
+      border-radius: 50%;
     }
 
-    .skills-container {
+    /* SKILLS */
+    .skills {
       display: flex;
       gap: 30px;
-      margin-top: 15px;
+      flex-wrap: wrap;
     }
 
     .skill {
       text-align: center;
+    }
+
+    .skill img {
+      width: 80px;
+      height: 80px;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <div class="name">Gagana KS</div>
-
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Project details</a>
-      <a href="#skills">Skills</a>
-      <a href="#recommendations">Recommendations</a>
-    </nav>
-  </header>
-
-  <!-- ABOUT ME -->
-  <section id="about">
-    <h2>About Me</h2>
-
-    <img src="image/profile.png" alt="Profile Image" width="150">
-
-    <h3>Gagana KS</h3>
-
-    <p>
-      I am a B.Tech student pursuing Artificial Intelligence and Data Science.
-      I am interested in web development and enjoy learning new technologies.
-      This portfolio showcases my skills and projects.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <h2>Skills</h2>
-
-    <div class="skills-container">
-
-      <div class="skill">
-        <img src="image/html.png" width="60">
-        <p>HTML</p>
-      </div>
-
-      <div class="skill">
-        <img src="image/css.png" width="60">
-        <p>CSS</p>
-      </div>
-
-      <div class="skill">
-        <img src="image/javascript.png" width="60">
-        <p>JavaScript</p>
-      </div>
-
-      <div class="skill">
-        <img src="image/python.png" width="60">
-        <p>Python</p>
-      </div>
-
-      <div class="skill">
-        <img src="image/github.png" width="60">
-        <p>GitHub</p>
-      </div>
-
-    </div>
-  </section>
-
-</body>
-</html>
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects
