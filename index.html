@@ -4,11 +4,19 @@
   <title>Portfolio</title>
 
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header (Name + Navbar) */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 15px 30px;
+      border-bottom: 1px solid #ddd;
     }
 
     .name {
@@ -27,25 +35,48 @@
       font-weight: bold;
       text-decoration: underline;
     }
+
+    /* About Me section */
+    #about {
+      padding: 30px;
+    }
+
+    #about img {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- NAV BAR -->
+  <!-- HEADER -->
   <header>
     <div class="name">Gagana KS</div>
 
     <nav>
-      <a href="#">About</a>
-      <a href="#">Project details</a>
-      <a href="#">Skills</a>
-      <a href="#">Recommendations</a>
+      <a href="#about">About</a>
+      <a href="#projects">Project details</a>
+      <a href="#skills">Skills</a>
+      <a href="#recommendations">Recommendations</a>
     </nav>
   </header>
 
-  <!-- Your old content can stay below -->
-  
+  <!-- ABOUT ME -->
+  <section id="about">
+    <h2>About Me</h2>
+
+    <img src="profile.png" alt="Profile Image" width="150">
+
+    <h3>Gagana KS</h3>
+
+    <p>
+      I am a B.Tech student pursuing Artificial Intelligence and Data Science.
+      I am interested in web development and enjoy learning new technologies.
+      This portfolio showcases my skills and projects.
+    </p>
+  </section>
+
 </body>
 </html>
-
