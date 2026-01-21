@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>My Portfolio</title>
-
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
 
-        /* NAV BAR */
         nav {
-            background-color: #111;
+            background: black;
             padding: 15px;
         }
 
         nav a {
             color: white;
+            margin-right: 20px;
             text-decoration: none;
-            margin-right: 25px;
-            font-size: 18px;
+            font-weight: normal;
         }
 
         nav a:hover {
@@ -29,99 +26,43 @@
         }
 
         section {
-            padding: 40px;
+            padding: 30px;
         }
 
-        /* ABOUT */
-        .about-container {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-        }
-
-        .about-container img {
+        .profile {
             width: 150px;
-            height: 150px;
             border-radius: 50%;
         }
 
-        /* SKILLS */
-        .skills-container {
-            display: flex;
-            gap: 40px;
-            margin-top: 20px;
-        }
-
-        .skill {
-            text-align: center;
-        }
-
-        .skill img {
-            width: 60px;
-            height: 60px;
+        .skills img {
+            width: 80px;
+            margin: 10px;
         }
     </style>
 </head>
-
 <body>
 
-    <!-- NAVIGATION BAR -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Project Details</a>
-        <a href="#skills">Skills</a>
-        <a href="#recommendations">Recommendations</a>
-    </nav>
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Project details</a>
+    <a href="#skills">Skills</a>
+    <a href="#recommendations">Recommendations</a>
+</nav>
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
-        <h2>About Me</h2>
+<section id="about">
+    <h2>About Me</h2>
+    <img src="image/profile.png" class="profile">
+    <h3>Gagana</h3>
+    <p>I am a B.Tech student learning web development and AI & Data Science.</p>
+</section>
 
-        <div class="about-container">
-            <img src="image/profile.png" alt="Profile Image">
-
-            <div>
-                <h3>Gagana KS</h3>
-                <p>
-                    I am a B.Tech student pursuing Artificial Intelligence and Data Science.
-                    I am interested in web development and emerging technologies.
-                    This portfolio showcases my skills and projects.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section id="skills">
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-            <div class="skill">
-                <img src="image/html.png" alt="HTML">
-                <p>HTML</p>
-            </div>
-
-            <div class="skill">
-                <img src="image/css.png" alt="CSS">
-                <p>CSS</p>
-            </div>
-
-            <div class="skill">
-                <img src="image/js.png" alt="JavaScript">
-                <p>JavaScript</p>
-            </div>
-
-            <div class="skill">
-                <img src="image/python.png" alt="Python">
-                <p>Python</p>
-            </div>
-
-            <div class="skill">
-                <img src="image/github.png" alt="GitHub">
-                <p>GitHub</p>
-            </div>
-        </div>
-    </section>
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <img src="image/html.png">
+    <img src="image/css.png">
+    <img src="image/js.png">
+    <img src="image/python.png">
+</section>
 
 </body>
 </html>
