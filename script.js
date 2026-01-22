@@ -23,6 +23,8 @@ function addRecommendation() {
   document.getElementById("recommendation").value = "";
 }
 function addRecommendation() {
-  // show popup message
-  alert("Thank you for leaving a recommendation!");
+alert("Thank you for leaving a recommendation!");
+
+  document.getElementById("name").value = "";
+  document.getElementById("message").value = "";
 }
