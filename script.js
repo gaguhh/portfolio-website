@@ -1,23 +1,20 @@
 function addRecommendation() {
-  const name = document.getElementById("name").value;
-  const text = document.getElementById("recommendation").value;
+  let name = document.getElementById("name").value;
+  let rec = document.getElementById("recommendation").value;
 
-  if (name === "" || text === "") {
-    alert("Please fill both fields");
+  if (name === "" || rec === "") {
+    alert("Fill all fields");
     return;
   }
 
-  const container = document.getElementById("recommendations-list");
+  let container = document.getElementById("recommendation-list");
 
-  const card = document.createElement("div");
-  card.className = "recommendation-card";
+  let div = document.createElement("div");
+  div.classList.add("recommendation");
 
-  card.innerHTML = `
-    <p>"${text}"</p>
-    <strong>- ${name}</strong>
-  `;
+  div.innerHTML = "<h4>" + name + "</h4><p>" + rec + "</p>";
 
-  container.appendChild(card);
+  container.appendChild(div);
 
   document.getElementById("name").value = "";
   document.getElementById("recommendation").value = "";
