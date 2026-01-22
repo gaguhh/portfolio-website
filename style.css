@@ -99,17 +99,20 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;          /* controls space between skills */
+  gap: 15px;          /* controls space between skills */
   flex-wrap: nowrap;
 }
 .skill {
   text-align: center;
-  flex: 1;
 }
 .skill img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height:55px;
   object-fit: contain;
   margin: 0 auto;
   display: block;
 }
+.skill p {
+    margin-top:5px;
+    front-size:14px;
+    
