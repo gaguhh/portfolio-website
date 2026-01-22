@@ -52,10 +52,17 @@ section {
   object-fit: contain;
   margin: 10px;
 }
-img {
+/* Force equal logo size */
+.skills img {
   width: 80px;
   height: 80px;
-  object-fit: cover;
+  object-fit: contain;
+  background: #f2f2f2;
+  padding: 10px;
 }
 
+/* Fix JS logo specifically */
+.skills img[src*="js"] {
+  transform: scale(1.3);
+}
 
