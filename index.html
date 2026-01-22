@@ -2,42 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gagana Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Name (Top-left) -->
-    <h1 class="name">Gagana</h1>
+    <!-- NAME TOP LEFT -->
+    <div class="name">Gagana</div>
 
-    <!-- Navigation Bar -->
+    <!-- NAVBAR -->
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
     </nav>
 
-    <!-- About Section -->
+    <!-- ABOUT SECTION -->
     <section id="about">
         <h2>About Me</h2>
-        <img src="images/profile.png" alt="My Photo" class="avatar">
-        <p>
-            I am a B.Tech student learning Web Development and AI & Data Science.
-        </p>
+        <img src="profile.png" alt="My Photo" class="avatar">
+        <p>I am a B.Tech student learning Web Development and AI & Data Science.</p>
     </section>
 
-    <!-- Skills Section -->
+    <!-- SKILLS SECTION -->
     <section id="skills">
         <h2>Skills</h2>
         <div class="skills">
-            <img src="./images/html.png" alt="HTML Logo">
-            <img src="./images/css.png" alt="CSS Logo">
-            <img src="./images/js.png" alt="JavaScript Logo">
+            <img src="image/html.png" alt="HTML Logo">
+            <img src="image/css.png" alt="CSS Logo">
+            <img src="image/js.png" alt="JavaScript Logo">
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- PROJECTS SECTION -->
     <section id="projects">
         <h2>Projects</h2>
         <p>Portfolio Website</p>
@@ -45,49 +42,3 @@
 
 </body>
 </html>
-/* General */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Name top-left */
-.name {
-    position: fixed;
-    top: 10px;
-    left: 15px;
-    font-size: 26px;
-    font-weight: bold;
-}
-
-/* Navigation */
-nav {
-    margin-top: 60px;
-    padding: 10px 15px;
-    background-color: #222;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 16px;
-}
-
-/* Sections */
-section {
-    padding: 30px;
-}
-
-/* Skills */
-.skills {
-    display: flex;
-    gap: 20px;
-    margin-top: 15px;
-}
-
-.skills img {
-    width: 80px;
-    height: auto;
-}
