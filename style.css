@@ -95,24 +95,25 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+/* FINAL FIX FOR SKILLS */
 .skills-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 15px;          /* controls space between skills */
-  flex-wrap: nowrap;
+  gap: 12px;
+  width: fit-content;     /* 🔴 KEY LINE */
+  margin: 0 auto;         /* center the row */
 }
 .skill {
   text-align: center;
 }
 .skill img {
   width: 55px;
-  height:55px;
+  height: 55px;
   object-fit: contain;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
 }
 .skill p {
-    margin-top:5px;
-    front-size:14px;
-    
+  margin: 4px 0 0;
+  font-size: 14px;
+}
