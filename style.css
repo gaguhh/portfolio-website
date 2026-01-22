@@ -97,9 +97,9 @@ p {
 }
 .skills-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;          /* controls space between skills */
   flex-wrap: nowrap;
 }
 .skill {
