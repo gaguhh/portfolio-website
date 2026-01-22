@@ -73,3 +73,26 @@ section {
 h1, h2 {
   margin-bottom: 15px;
 }
+/* Remove default browser spacing */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Control section spacing strictly */
+section {
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+/* Remove extra heading gaps */
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Remove paragraph extra space */
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
