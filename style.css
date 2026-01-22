@@ -90,7 +90,6 @@ h1, h2 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 /* Remove paragraph extra space */
 p {
   margin-top: 5px;
@@ -98,24 +97,19 @@ p {
 }
 .skills-container {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
 }
-
 .skill {
   text-align: center;
+  flex: 1;
 }
-
 .skill img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  display: block;
   margin: 0 auto;
-}
-
-.skill p {
-  margin-top: 8px;
-  font-size: 14px;
+  display: block;
 }
