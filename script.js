@@ -22,3 +22,7 @@ function addRecommendation() {
   document.getElementById("name").value = "";
   document.getElementById("recommendation").value = "";
 }
+function addRecommendation() {
+  // show popup message
+  alert("Thank you for leaving a recommendation!");
+}
