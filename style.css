@@ -106,6 +106,7 @@ p {
 
 .skill {
   text-align: center;
+min-width:110px;
 }
 .skill p {
   margin-top: 5px;
