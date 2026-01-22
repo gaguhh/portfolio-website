@@ -98,7 +98,7 @@ p {
 /* FINAL FIX FOR SKILLS */
 .skills-container {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   gap: 12px;
   width: fit-content;     /* 🔴 KEY LINE */
   margin: 0 auto;         /* center the row */
