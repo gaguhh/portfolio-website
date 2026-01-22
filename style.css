@@ -119,5 +119,7 @@ p {
 .skill p {
   margin-top: 5px;
   font-size: 14px;
+  white-space:nowrap;
+  text-align:center;  
 }
 
