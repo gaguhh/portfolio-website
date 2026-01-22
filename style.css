@@ -107,7 +107,13 @@ p {
 .skill {
   text-align: center;
 }
-
+.skill p {
+  margin-top: 5px;
+  font-size: 14px;
+  white-space: normal;   /* 🔥 allow full word */
+  overflow: visible;     /* 🔥 no cutting */
+  text-align: center;
+}
 .skill img {
   width: 55px;
   height: 55px;
@@ -116,10 +122,6 @@ p {
   margin: 0 auto;
 }
 
-.skill p {
-  margin-top: 5px;
-  font-size: 14px;
-  white-space:nowrap;
   text-align:center;  
 }
 
