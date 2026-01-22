@@ -96,12 +96,7 @@ p {
   margin-bottom: 5px;
 }
 /* FINAL FIX FOR SKILLS */
-.skills-container {
-  display: flex;
-  justify-content:flex-start;
-  gap: 12px;
-  width: fit-content;     /* 🔴 KEY LINE */
-  margin: 0 auto;         /* center the row */
+
 }
 .skill {
   text-align: center;
