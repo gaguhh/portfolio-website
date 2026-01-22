@@ -149,4 +149,19 @@ min-width:110px;
   margin-top: 10px;
   text-align: right;
 }
+/* Fix space between name and Recommendations */
+h1 {
+  margin-bottom: 25px;
+}
 
+/* Recommendations heading spacing */
+h2 {
+  margin-top: 20px;
+}
+
+/* Center recommendations cards properly */
+.recommendations {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
