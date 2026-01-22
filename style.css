@@ -192,3 +192,17 @@ h2 {
   height: 40px;
   border: 2px solid red;
 }
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0 6px;   /* controls space between items */
+}
+
+.home-link {
+  margin-right: 0;
+  padding: 0;
+}
