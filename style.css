@@ -96,11 +96,18 @@ p {
   margin-bottom: 5px;
 }
 /* FINAL FIX FOR SKILLS */
-
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
 }
+
 .skill {
   text-align: center;
 }
+
 .skill img {
   width: 55px;
   height: 55px;
@@ -108,7 +115,9 @@ p {
   display: block;
   margin: 0 auto;
 }
+
 .skill p {
-  margin: 4px 0 0;
+  margin-top: 5px;
   font-size: 14px;
 }
+
