@@ -96,3 +96,26 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.skill p {
+  margin-top: 8px;
+  font-size: 14px;
+}
