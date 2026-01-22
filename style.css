@@ -52,5 +52,10 @@ section {
   object-fit: contain;
   margin: 10px;
 }
+img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
 
 
